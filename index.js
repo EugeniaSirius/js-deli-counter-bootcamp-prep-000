@@ -19,11 +19,10 @@ function currentLine(katzDeliLine)  {
   for (let i=0; i<katzDeliLine.length; i++)  {
     
     return ('The line is currently: 1. '+ katzDeliLine[0] + ', 2. '+ katzDeliLine[1] + ', 3. '+katzDeliLine[2])
-  
+  }
   if (katzDeliLine===0)  {
     return 'The line is currently empty.'
   } 
-}
 }
 
 
