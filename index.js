@@ -17,10 +17,10 @@ function nowServing(katzDeliLine)  {
 
 function currentLine(katzDeliLine)  {
   for (let i=0; i<katzDeliLine.length; i++)  {
-    if (i===0)  {
+    
     return ('The line is currently: 1. '+ katzDeliLine[0] + ', 2. '+ katzDeliLine[1] + ', 3. '+katzDeliLine[2])
-  }
-  else  {
+  
+  if (katzDeliLine.length===0)  {
     return 'The line is currently empty.'
   } 
 }
